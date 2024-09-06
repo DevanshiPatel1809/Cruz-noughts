@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Landing Page</title>
+    <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Welcome to Cruz & Noughts</h1>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.oeUleuProanLPpj7zMf02AHaHa&pid=Api&P=0&h=180" alt="Tic Tac Toe Game" class="game-image">
+        
+        <div class="button-group">
+            <button class="button normal-mode" onclick="startNormalMode()">Start Normal Mode</button>
+            <button class="button timer-mode" onclick="startTimerMode()">Start Timer Mode</button>
+        </div>
+        <div>RULES:</div>
+        <div><P>1. Select Any Mode To Start.<br>
+
+2.Give Inputs Of Player Names & Click On Start button.<br>  
+
+3.On every fourth move, your 1st move will be erased & this cycle continues till we get winner.<br>
+
+4.For restart, press restart button and again press the start button.<br>
+
+5.In Timer Mode, 10sec. will be given to each player for each move.<br>
+ </magnam>
+    
+        </P></div>
+    </div>
+
+    <script>
+        function startNormalMode() {
+            window.location.href = 'Normal.html';
+        }
+
+        function startTimerMode() {
+            window.location.href = 'devu.html'; 
+        }
+    </script>
+</body>
+</html>
